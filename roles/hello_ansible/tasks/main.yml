@@ -6,5 +6,6 @@
     create: yes
     state: present
     line: "Hello, Ansible."
+    mode: 0644
 
 ...
