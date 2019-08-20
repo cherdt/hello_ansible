@@ -1,0 +1,8 @@
+---
+
+- name: run something trivial
+  hosts: all
+  roles:
+    - hello_ansible
+
+...

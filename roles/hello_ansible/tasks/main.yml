@@ -1,0 +1,9 @@
+---
+
+- name: add hello_ansible to /tmp
+  lineinfile:
+    path: /tmp/hello_ansible
+    state: present
+    line: "Hello, Ansible."
+
+...
