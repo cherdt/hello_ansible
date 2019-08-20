@@ -3,6 +3,7 @@
 - name: add hello_ansible to /tmp
   lineinfile:
     path: /tmp/hello_ansible
+    create: yes
     state: present
     line: "Hello, Ansible."
 
